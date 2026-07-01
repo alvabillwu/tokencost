@@ -48,6 +48,9 @@ MODELS: dict[str, ModelPricing] = {
     "llama-4-scout":      ModelPricing("llama-4-scout", "Meta", "Llama 4 Scout", 0.10, 0.30, 131_072, type="chat"),
     "deepseek-v3":        ModelPricing("deepseek-v3", "DeepSeek", "DeepSeek V3", 0.27, 1.10, 131_072),
     "qwen3-235b":         ModelPricing("qwen3-235b", "Alibaba", "Qwen3 235B", 0.30, 0.80, 131_072),
+    "qwen3-32b":          ModelPricing("qwen3-32b", "Alibaba", "Qwen3 32B", 0.10, 0.30, 131_072),
+    "mistral-large-2":    ModelPricing("mistral-large-2", "Mistral", "Mistral Large 2", 2.00, 6.00, 131_072),
+    "mistral-small-3":    ModelPricing("mistral-small-3", "Mistral", "Mistral Small 3", 0.20, 0.60, 131_072),
 
     # ── Embedding ──
     "text-embedding-3-large": ModelPricing("text-embedding-3-large", "OpenAI", "Text Embedding 3 Large", 0.13, 0.00, 8191, type="embedding"),
